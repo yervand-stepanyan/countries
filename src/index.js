@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Countries from './Components/Countries/Countries';
 import * as serviceWorker from './serviceWorker';
+import Countries from './Components/Countries/Countries';
 
 ReactDOM.render(<Countries />, document.getElementById('root'));
 
