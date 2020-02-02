@@ -7,6 +7,11 @@
     background-color: #F5F5F5;
 }
 
+.linkStyle {
+    width: 45%;
+    text-decoration: none;
+}
+
 .countryWrapper {
     width: 100%;
     display: flex;
@@ -16,7 +21,7 @@
 }
 
 .cardStyle {
-    width: 45%;
+    width: 100%;
     margin: 10px 0;
 }
 
@@ -24,6 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .countryName {
@@ -42,8 +48,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .cardStyle {
+    .linkStyle {
         width: 24%;
+    }
+
+    .cardStyle {
+        width: 100%;
     }
 
     .countryName {
