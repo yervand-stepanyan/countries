@@ -79,7 +79,7 @@ export default class Countries extends React.Component {
 
     return (
       <div className={styles.main}>
-        <Input onInputClick={this.searchCountry}/>
+        <Input onInputClick={this.searchCountry} />
         <div className={styles.countryWrapper}>
           {errorText ? (
             <p>{errorText}</p>
