@@ -83,8 +83,8 @@ export default class CountryDetails extends React.Component {
                   Population: {country.population}
                 </Typography>
                 <CardMedia
-                  className={styles.cardFlag}
                   image={country.flag}
+                  className={styles.cardFlag}
                   title="Country flag"
                 />
               </CardContent>
